@@ -31,23 +31,30 @@ public static void main(String[] args) {
 //	AadharCardDao aadharCardDao=new AadharCardDao();
 //	aadharCardDao.saveAadharCard(2, aadharCard);
 	
-	AadharCard aadharCard=new AadharCard();
-	aadharCard.setAge(19);
-	aadharCard.setName("Sindhu");
-	
-	AadharCardDao aadharCardDao=new AadharCardDao();
-	aadharCardDao.updateAadharCard(102, aadharCard);
-	
-	
+//	AadharCard aadharCard=new AadharCard();
+//	aadharCard.setAge(19);
+//	
+//	
+//	AadharCardDao aadharCardDao=new AadharCardDao();
+//	aadharCardDao.updateAadharCard(102, aadharCard);
 	
 	
+//	Person person=new Person();
+//	person.setAddress("pune");
+//	person.setName("sindhusharma");
+//	
+//	PersonDao dao=new PersonDao();
+//	dao.updatePerson(2, person);
+//	
+	
+	
+	AadharCardDao dao=new AadharCardDao();
+	dao.deleteAadharCard(101);
 	
 	
 	
-	
-	
-	
-	
+//	PersonDao dao=new PersonDao();
+//	dao.deletePerson(1);
 	
 	
 	
